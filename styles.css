@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1e1e2f, #2e2e4e);
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-container {
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  color: #ffd369;
+  text-shadow: 0 0 10px #ffd36988;
+}
+
+.button-group button {
+  display: block;
+  margin: 10px auto;
+  padding: 12px 40px;
+  font-size: 1.1rem;
+  background: #3a3a5a;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.button-group button:hover {
+  background: #ffd369;
+  color: #222;
+}
+
+/* Modal Styling */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+  background-color: #2f2f4f;
+  margin: 10% auto;
+  padding: 30px;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+  color: #ffd369;
+}
+
+.modal-content input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.modal-buttons button {
+  width: 48%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #ffd369;
+  color: #222;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.modal-buttons button:hover {
+  background: #e4c056;
+}
+
+.signup-text {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+.signup-text a {
+  color: #ffd369;
+  text-decoration: none;
+}
+.signup-text a:hover {
+  text-decoration: underline;
+}
